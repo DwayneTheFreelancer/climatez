@@ -32,8 +32,8 @@ function MyVerticallyCenteredModal(props) {
         {props.tpye === "Snow" ? <WinterOutfit /> : ""}
         {props.type === "Rain" ? <RainOutfit temp={props.temp} /> : ""}
         {props.temp <= 50 && props.type !== "Rain" ? <WinterOutfit /> : ""}
-        {props.temp > 50 && props.temp <= 75 && props.type !== "Rain" ? <WarmOutfit /> : ""}
-        {props.temp > 80 && props.type !== "Rain" ? <SummerOutfit /> : ""}
+        {props.temp > 50 && props.temp <= 79 && props.type !== "Rain" ? <WarmOutfit /> : ""}
+        {props.temp >= 80 && props.type !== "Rain" ? <SummerOutfit /> : ""}
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={props.onHide}>X</Button>

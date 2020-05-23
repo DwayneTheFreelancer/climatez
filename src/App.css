@@ -39,9 +39,23 @@ div.scrollmenu a:hover {
 }
 
 
+.MuiFormControl-root, .MuiTextField-root {
+  border: 2px solid #fff;
+  background-color: #fff;
+  border-radius: 5px;
+}
 
+.MuiButtonBase-root, .MuiButton-root, .MuiButton-outlined, .MuiButton-outlinedPrimary, .MuiTouchRipple-root {
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  border: 3px solid black;
+  border-color: #fff;
+  color: rgb(230, 17, 17);
+  
+}
 
-
+.MuiButton-label {
+  color: #fff;
+}
 
 .extra-details {
   display: flex;
